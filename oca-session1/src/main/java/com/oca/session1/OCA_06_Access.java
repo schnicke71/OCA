@@ -1,6 +1,6 @@
 package com.oca.session1;
 
-import com.oca.chapter1_other.Parent;
+import com.oca.session1_other.Parent;
 
 public class OCA_06_Access extends Parent {
 	

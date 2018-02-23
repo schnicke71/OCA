@@ -31,7 +31,7 @@ enum MainEnum {
 }
 
 /*
- * Compile and run on command line, where javac and java are on you current path:
- * javac com/oca/chapter1/OCA_01_Main.java
- * java com.oca.chapter1.AnyClass
+ * Compile and run on command line, where javac and java are on your current path and your current directory contains the com directory:
+ * javac com/oca/session1/OCA_01_Main.java
+ * java com.oca.session1.AnyClass
  */
