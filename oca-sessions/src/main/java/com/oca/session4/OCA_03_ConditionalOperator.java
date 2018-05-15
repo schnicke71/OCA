@@ -1,5 +1,8 @@
 package com.oca.session4;
 
+/**
+ * Some examples for the ternary operator.
+ */
 public class OCA_03_ConditionalOperator {
 
 	static int i = 0;
@@ -20,7 +23,7 @@ public class OCA_03_ConditionalOperator {
 	
 	static int testOperator(int i) {
 		System.out.println((i < 0) ? i = -i : i);
-		// (i > 0) ? (i = -i) : (i = i);
+		(i > 0) ? (i = -i) : (i = i);
 		return i < 0 ? i = -i : i;
 	}
 }

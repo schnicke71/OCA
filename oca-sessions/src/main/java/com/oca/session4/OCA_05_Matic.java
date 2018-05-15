@@ -1,5 +1,8 @@
 package com.oca.session4;
 
+/**
+ * Some basic calculations.
+ */
 public class OCA_05_Matic {
 
 	public static void main(String[] args) {
@@ -8,7 +11,7 @@ public class OCA_05_Matic {
 		byte b2 = b1 + 1;
 		System.out.println("b1=" + b2);
 		
-		float f1 = 1.0F + 1.3F;
+		float f1 = 1.0 + 1.3;
 		System.out.println("f1=" + f1);
 		
 		float f2 = 1442342.2342340F + 1999999999999999L;

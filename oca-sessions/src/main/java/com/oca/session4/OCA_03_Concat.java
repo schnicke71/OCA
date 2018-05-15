@@ -2,6 +2,9 @@ package com.oca.session4;
 
 import java.util.Locale;
 
+/**
+ * Basic String concatenations using the + operator.
+ */
 public class OCA_03_Concat {
 
 	static String $a_12;
@@ -17,7 +20,7 @@ public class OCA_03_Concat {
 		
 		System.out.println("5 / 2=" + 5 / 2);
 		
-		String test = "Java " + (18 / 10);
+		String test += "Java " + (18 / 10);
 		System.out.println("test=" + test);
 	}
 }

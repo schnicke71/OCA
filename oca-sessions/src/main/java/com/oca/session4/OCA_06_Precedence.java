@@ -2,6 +2,9 @@ package com.oca.session4;
 
 import java.util.Arrays;
 
+/**
+ * Some examples for precedence.
+ */
 public class OCA_06_Precedence {
 
 	public static void main(String[] args) {
@@ -14,7 +17,7 @@ public class OCA_06_Precedence {
 		byte b4 = 10;
 		b4 *= 3;
 		b4 /= 3;
-		// b4 = b4 * 3;
+		b4 = b4 * 3;
 		System.out.println("b4=" + b4);
 		
 		byte b5 = Byte.MAX_VALUE;

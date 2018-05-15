@@ -1,13 +1,16 @@
 package com.oca.session4;
 
+/**
+ * Special examples for the modulus operator.
+ */
 public class OCA_08_Modulus {
 
 	public static void main(String[] args) {
 		
 		System.out.println("5 % 4.9=" + (5 % 4.9));
 		
-//		int i = 5 % 4.9;
-//		System.out.println("int 5 % 4.9=" + i);
+		int i = 5 % 4.9;
+		System.out.println("int 5 % 4.9=" + i);
 		
 		double d1 = 10.8;
 		int i1 = 2;

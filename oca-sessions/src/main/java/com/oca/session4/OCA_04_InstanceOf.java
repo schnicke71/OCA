@@ -1,12 +1,15 @@
 package com.oca.session4;
 
+/**
+ * Instaceof may be more difficult at the second glance.
+ */
 public class OCA_04_InstanceOf {
 
 	public static void main(String[] args) {
 		
 		StringBuilder sb = new StringBuilder();
 		System.out.println("testInstanceOf(sb)=" + testInstanceOf(sb));
-		System.out.println("sb instanceof Number=" + (sb instanceof Number));
+		System.out.println("sb instanceof Number=" + sb instanceof Number);
 		
 		System.out.println("testInstanceOf(1)=" + testInstanceOf(1));
 		System.out.println("testInstanceOf(null)=" + testInstanceOf(null));
@@ -29,5 +32,7 @@ public class OCA_04_InstanceOf {
 }
 
 class Drink { boolean tastesGood() { return true; } }
+
 class CaptainCola extends Drink { boolean tastesGood() { return true; } }
+
 class InlaenderPepsi extends Drink { boolean tastesGood() { return false; } }
