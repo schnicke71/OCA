@@ -1,0 +1,54 @@
+conditional operator
+relational operators
+compound assignment operator
+
+unary operators
+binary operators
+ternary operator
+
+precedence
+
+widening
+narrowing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+byte --- short --- int --- long --- float --- double
+                  /
+          char ---
+          
+U    M    A    R    E    L    S    A
+
+
+
+
+
+
+
+
+
+
+
+
+++   *    +    <    ==   &    &&   =
+--   /    -    >    !=   |    ||   +=
+!    %         <=
+-              >=

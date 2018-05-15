@@ -1,0 +1,43 @@
+package com.oca.session1_enum;
+
+import java.io.PrintStream;
+
+public final class CoffeeSize extends Enum {
+
+    public static final CoffeeSize SMALL;
+    public static final CoffeeSize MEDIUM;
+    public static final CoffeeSize LARGE;
+    
+    int price;
+    private static final CoffeeSize ENUM$VALUES[];
+
+    static {
+        SMALL = new CoffeeSize("SMALL", 0, 2);
+        MEDIUM = new CoffeeSize("MEDIUM", 1, 3);
+        LARGE = new CoffeeSize("LARGE", 2, 4);
+        
+        ENUM$VALUES = (new CoffeeSize[] {
+            SMALL, MEDIUM, LARGE
+        });
+        
+        System.out.println("Static inizializer");
+    }
+    
+    private CoffeeSize(String s, int i, int price) {
+        super(s, i);
+        System.out.println("Instance initializer");
+        this.price = price;
+    }
+
+    public static CoffeeSize[] values() {
+        CoffeeSize acoffeesize[];
+        int i;
+        CoffeeSize acoffeesize1[];
+        System.arraycopy(acoffeesize = ENUM$VALUES, 0, acoffeesize1 = new CoffeeSize[i = acoffeesize.length], 0, i);
+        return acoffeesize1;
+    }
+
+    public static CoffeeSize valueOf(String s) {
+        return (CoffeeSize)Enum.valueOf(at/oca/chapter2/CoffeeSize, s);
+    }
+}
