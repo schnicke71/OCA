@@ -1,5 +1,9 @@
 package com.oca.session3;
 
+/**
+ * Literals for byte, short, char and int are checked by the compiler, if there are constants in use, even there are math operations.
+ * Important lines are: 11, 32, 38 and 39
+ */
 public class OCA_01_Literal {
 
 	public static void main(String[] args) {

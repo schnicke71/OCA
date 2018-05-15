@@ -1,5 +1,9 @@
 package com.oca.session2;
 
+/**
+ * Are the two overloaded methods correctly defined?
+ * Does line 20 compile, if not, what may be changed to make it compile successfully?
+ */
 public class OCA_11_Varargs {
 
 	public void anyMethod(String... others) {

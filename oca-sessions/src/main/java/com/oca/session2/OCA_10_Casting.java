@@ -1,5 +1,8 @@
 package com.oca.session2;
 
+/**
+ * Which casts work, which casts cause compile errors and which casts cause ClassCastExceptions?
+ */
 public class OCA_10_Casting {
 
 	public static void main(String[] args) {
@@ -14,5 +17,7 @@ public class OCA_10_Casting {
 		Short s2 = (Short) n2;
 		Integer i3 = (Integer) n2;
 		Integer i4 = (Integer) str1;
+		
+		Integer i5 = (Integer) new Object();
 	}
 }

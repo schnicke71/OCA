@@ -1,5 +1,8 @@
 package com.oca.session2;
 
+/**
+ * What are the rules overriding a method (parameters, return type, access modifier, thrown exceptions)?
+ */
 class Parent {
 
 	public Number addNumbers(Number a, Number b) throws IllegalArgumentException {
@@ -12,13 +15,13 @@ class Parent {
 
 class ChildA extends Parent {
 	
-	public Double addNumbers(Number a, Number b) {
+	Double addNumbers(Number a, Number b) {
 		return a.doubleValue() + b.doubleValue();
 	}
 }
 
 class ChildB extends Parent {
-
+	
 	public Number addNumbers(Double a, Double b) throws ArithmeticException {
 		if (a.isNaN() || b.isNaN()) {
 			throw new ArithmeticException("Cannot add numbers, both arguments must be not Not-a-Number");

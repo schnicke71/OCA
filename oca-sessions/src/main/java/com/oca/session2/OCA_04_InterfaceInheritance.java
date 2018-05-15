@@ -1,5 +1,8 @@
 package com.oca.session2;
 
+/**
+ * What is inherited by a class extending an interface?
+ */
 interface MyInterface {
 	
 	int field = 42;

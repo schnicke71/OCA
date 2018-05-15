@@ -1,5 +1,9 @@
 package com.oca.session2;
 
+/**
+ * What is the result of following main method?
+ * What is relevant for polymorphism: instance variables, static variables, instance methods, static methods?
+ */
 class SuperClass {
 	
 	static int staticField = 1;

@@ -4,20 +4,11 @@ import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Test the methods equals() and toString() for: Object, StringBuilder, String, ArrayList and LocalDate.
+ * Finally some special tests with enums.
+ */
 public class OCA_02_Equals {
-	
-	enum Enum1 {
-		A, B, C;
-		
-		public boolean equals(Enum o) {
-			System.out.println("Enum1.equals() called...");
-			return true;
-		}
-	}
-	
-	enum Enum2 {
-		A, B, C
-	}
 	
 	public static void main(String[] args) {
 		
@@ -52,25 +43,18 @@ public class OCA_02_Equals {
 		System.out.println("Enum.equals(Enum2.A): " + Enum1.A.equals(Enum2.A) + ", toString(): " + Enum1.A.toString());
 		System.out.println("Enum.equals(null): " + Enum1.A.equals(null));
 		System.out.println("Enum.equals(new Object()): " + Enum1.A.equals(new Object()));
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
 	}
+}
+
+enum Enum1 {
+	A, B, C;
+	
+	public boolean equals(Enum o) {
+		System.out.println("Enum1.equals() called...");
+		return true;
+	}
+}
+
+enum Enum2 {
+	A, B, C
 }

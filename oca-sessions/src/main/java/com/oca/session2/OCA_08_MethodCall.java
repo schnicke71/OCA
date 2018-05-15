@@ -1,5 +1,11 @@
 package com.oca.session2;
 
+/**
+ * Which of the overloaded methods of the class Logger is called is determined by the reference type, not the object type.
+ * Which method must be removed to be able to log null?
+ * @author hast
+ *
+ */
 public class OCA_08_MethodCall {
 
 	public static void main(String[] args) {

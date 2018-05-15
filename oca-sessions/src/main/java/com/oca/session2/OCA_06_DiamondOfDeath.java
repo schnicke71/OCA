@@ -1,5 +1,9 @@
 package com.oca.session2;
 
+/**
+ * Two interfaces have the same default method, a class implements theses interfaces, which leads to a compile error.
+ * How can this compile error be solved?
+ */
 public interface OCA_06_DiamondOfDeath {
 	default void testMethod() {}
 }
@@ -12,19 +16,10 @@ interface IfaceB extends OCA_06_DiamondOfDeath {
 	default void testMethod() {}
 }
 
-abstract class ConcreteClass implements IfaceA, IfaceB {
-
-	public abstract void testMethod();
-
-
-}
-
-class abc extends ConcreteClass {
-
-	@Override
-	public void testMethod() {
-		OCA_06_DiamondOfDeath.super.testMethod();
-		
-	}
+class ConcreteClass implements IfaceA, IfaceB {
 	
+	public static void main(String[] args) {
+		ConcreteClass concreteClass = new ConcreteClass();
+		concreteClass.testMethod();
+	}
 }

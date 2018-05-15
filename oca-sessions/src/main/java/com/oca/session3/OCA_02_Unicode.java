@@ -1,5 +1,8 @@
 package com.oca.session3;
 
+/**
+ * Unicodes can be anywhere in the code.
+ */
 public class OCA_02_Unicode {
 
 	public static void main(String[] args) {

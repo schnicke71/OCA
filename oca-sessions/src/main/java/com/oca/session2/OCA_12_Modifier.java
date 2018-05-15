@@ -1,29 +1,31 @@
 package com.oca.session2;
 
-abstract /*final*/ public  strictfp   class OCA_12_Modifier {
-
-	  final  private /*protected*/ /*public*/ static   transient /*volatile*/ int fieldx = 1;
+/**
+ * Demonstration, which modifiers are valid for classes, interfaces and enums.
+ * Some modifiers are commented out as they would cause compile errors in combination with other modifiers.
+ */
+abstract /*final*/ public strictfp class OCA_12_Modifier {
 	
-	/*abstract*/  /*final*/ /*native*/ private /*protected*/ /*public*/ static strictfp synchronized   void method() {
+	final private /*protected*/ /*public*/ static transient /*volatile*/ int field = 1;
+	
+	/*abstract*/ /*final*/ /*native*/ private /*protected*/ /*public*/ static strictfp synchronized void method() {
 		final int field;
 	}
 }
 
-abstract     /*public*/      interface InterfaceA {
+abstract /*public*/ interface InterfaceA {
 	
-	final public static  int field = 1;
+	final public static int field = 1;
 	
 	abstract public void abstractMethod();
 	
-	 default     public /*static*/ strictfp    void implementedMethod() {}
+	default public /*static*/ strictfp void implementedMethod() {}
 }
 
-     /*public*/  enum EnumA {
+/*public*/ enum EnumA {
 	
 	A, B, C;
 	
-    	 /*abstract*/  /*final*/ /*native*/ private /*protected*/ /*public*/ static strictfp synchronized   void method() {
+    /*abstract*/ /*final*/ /*native*/ private /*protected*/ /*public*/ static strictfp synchronized void method() {
 	}
 }
-
-// Buch Seite 16 Statische Imports 3. Punkt
