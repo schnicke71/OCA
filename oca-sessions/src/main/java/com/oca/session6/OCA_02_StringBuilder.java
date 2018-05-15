@@ -1,5 +1,9 @@
 package com.oca.session6;
 
+/**
+ * Similar examples using the StringBuilder.
+ * Line 14 is tricky.
+ */
 public class OCA_02_StringBuilder {
 
 	public static void main(String[] args) {

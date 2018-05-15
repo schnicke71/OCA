@@ -1,5 +1,8 @@
 package com.oca.session6;
 
+/**
+ * Java, autoboxing and comparing numbers.
+ */
 public class OCA_08_Autoboxing {
 
 	static Integer si;

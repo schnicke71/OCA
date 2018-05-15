@@ -1,5 +1,9 @@
 package com.oca.session6;
 
+/**
+ * Alle methos of StringBuilder and String with some kind of end position or length.
+ * Important are lines 16, 19 and 32.
+ */
 public class OCA_03_IndexVsPosition {
 
 	public static void main(String[] args) {

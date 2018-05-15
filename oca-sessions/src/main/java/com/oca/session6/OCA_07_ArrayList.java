@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Some examples using ArrayLists.
+ */
 public class OCA_07_ArrayList {
 
 	public static void main(String[] args) {

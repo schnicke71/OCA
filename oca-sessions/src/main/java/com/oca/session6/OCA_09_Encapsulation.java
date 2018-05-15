@@ -3,6 +3,11 @@ package com.oca.session6;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * When is a class well encapsulated?
+ * Check all member variables, they must be private.
+ * Check all methods returning references to original objects without copying them, they may be changed by reference from outside.
+ */
 public class OCA_09_Encapsulation {
 	
 	public static void main(String[] args) {

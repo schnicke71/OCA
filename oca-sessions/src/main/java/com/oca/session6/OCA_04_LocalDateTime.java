@@ -11,6 +11,9 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
+/**
+ * Exploring the API of LocalDateTime.
+ */
 public class OCA_04_LocalDateTime {
 
 	public static void main(String[] args) throws Exception {
@@ -25,7 +28,7 @@ public class OCA_04_LocalDateTime {
 		calendar.add(Calendar.MONTH, -1);
 		System.out.println("Calendar after add and add" + calendar);
 		
-		localDateTime = localDateTime.plusDays(1).minusMonths(1).plusYears(212);
+		localDateTime.plusDays(1).minusMonths(1).plusYears(212);
 		System.out.println("localDateTime after plus and minus=" + localDateTime);
 		
 		Duration duration = Duration.ofDays(1);

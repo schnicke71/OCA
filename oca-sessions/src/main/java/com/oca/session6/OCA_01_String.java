@@ -1,5 +1,8 @@
 package com.oca.session6;
 
+/**
+ * Some examples with Strings.
+ */
 public class OCA_01_String {
 
 	public static void main(String[] args) {
