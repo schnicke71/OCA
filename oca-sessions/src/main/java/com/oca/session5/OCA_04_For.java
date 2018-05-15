@@ -2,6 +2,9 @@ package com.oca.session5;
 
 import java.util.Random;
 
+/**
+ * Examples using the for-statement.
+ */
 public class OCA_04_For {
 
 	public static void main(String[] args) {
@@ -15,9 +18,8 @@ public class OCA_04_For {
 		System.out.println("i=" + i);
 		
 		
-		
 		System.out.println("Example 2:");
-		for (System.out.println("init"), int i = 0;;System.out.println("i++")) {
+		for (System.out.println("init");;System.out.println("i++")) {
 			
 			int random = new Random().nextInt(10);
 			System.out.println("random=" + random);
@@ -27,9 +29,8 @@ public class OCA_04_For {
 		}
 		
 		
-		
 		System.out.println("Example 3:");
-		for ({System.out.println("init");}; ;) {
+		for (int x = 0, y = x, z; ;System.out.println("x will be increased now"), x++, System.out.println("value of x=" + x)) {
 			if (y = x == 4) {
 				break;
 			}

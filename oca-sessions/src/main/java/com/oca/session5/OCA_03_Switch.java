@@ -1,5 +1,8 @@
 package com.oca.session5;
 
+/**
+ * More difficult examples using the switch-statement.
+ */
 import java.util.Random;
 
 public class OCA_03_Switch {
@@ -27,7 +30,6 @@ public class OCA_03_Switch {
 		}
 		
 		
-		
 		System.out.println("Example 2:");
 		byte myByte = (byte) new Random().nextInt(2);
 		final int zero = 0;
@@ -38,7 +40,6 @@ public class OCA_03_Switch {
 		case new Byte((byte)2): System.out.println("dos"); break;
 		case 128: System.out.println("128"); break;
 		}
-		
 		
 		
 		System.out.println("Example 3:");

@@ -1,5 +1,8 @@
 package com.oca.session5;
 
+/**
+ * Examples using the while-statement.
+ */
 public class OCA_05_While {
 
 	public static void main(String[] args) {

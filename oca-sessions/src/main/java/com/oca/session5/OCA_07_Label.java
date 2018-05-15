@@ -1,5 +1,8 @@
 package com.oca.session5;
 
+/**
+ * Labels everywhere, not only in loops and switches.
+ */
 public class OCA_07_Label {
 
 	public static void main(String[] args) {
@@ -19,8 +22,7 @@ public class OCA_07_Label {
 			if2: if (myInt > 10) break if1;
 			syso2: System.out.println("After break if1");
 		}
-		else
-		 ab: {
+		else {
 			syso1: System.out.println("in else");
 			assignment1: myInt += myInt2;
 		}

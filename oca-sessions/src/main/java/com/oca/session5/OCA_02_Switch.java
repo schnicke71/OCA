@@ -1,5 +1,8 @@
 package com.oca.session5;
 
+/**
+ * Examples using the switch-statement.
+ */
 public class OCA_02_Switch {
 
 	public static void main(String[] args) {
@@ -23,7 +26,6 @@ public class OCA_02_Switch {
 	    }
 		
 	    
-	    
 		System.out.println("Example 2:");
 		long l1 = 0;
 	    switch (l1) {
@@ -35,7 +37,6 @@ public class OCA_02_Switch {
 		      System.out.println("5 * 3 - 15");
 		      break;
 	    }
-	    
 	    
 	    
 	    System.out.println("Example 3:");
