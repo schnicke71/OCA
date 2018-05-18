@@ -1,7 +1,7 @@
 package com.oca.session5;
 
 /**
- * An example for polymorphism.
+ * Another example for polymorphism.
  */
 class Animal {
 	String var = "Animal ";

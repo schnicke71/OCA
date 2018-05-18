@@ -5,7 +5,7 @@ import java.time.LocalDate;
 
 /**
  * Enum with a strange method redefinition in line 18.
- * Do lines 32 and 36 compile?
+ * Do lines 33 and 36 compile?
  */
 public class OCA_09_Enum {
 

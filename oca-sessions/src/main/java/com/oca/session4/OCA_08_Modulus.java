@@ -2,6 +2,7 @@ package com.oca.session4;
 
 /**
  * Special examples for the modulus operator.
+ * What happens if the operators are negative?
  */
 public class OCA_08_Modulus {
 

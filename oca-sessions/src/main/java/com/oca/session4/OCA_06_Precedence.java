@@ -3,7 +3,7 @@ package com.oca.session4;
 import java.util.Arrays;
 
 /**
- * Some examples for precedence.
+ * Some easy examples for precedence.
  */
 public class OCA_06_Precedence {
 

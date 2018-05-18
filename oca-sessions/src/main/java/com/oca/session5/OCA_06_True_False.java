@@ -1,7 +1,7 @@
 package com.oca.session5;
 
 /**
- * Using the literals true and false may result in compile errors?
+ * Using the literals true and false in loops may result in compile errors?
  */
 public class OCA_06_True_False {
 

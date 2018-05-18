@@ -2,7 +2,7 @@ package com.oca.session6;
 
 /**
  * Similar examples using the StringBuilder.
- * Line 14 is tricky.
+ * Line 12 is tricky, what exactly is happening there?
  */
 public class OCA_02_StringBuilder {
 

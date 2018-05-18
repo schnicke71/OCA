@@ -6,6 +6,7 @@ import java.util.List;
 
 /**
  * Test the methods equals() and toString() for: Object, StringBuilder, String, ArrayList and LocalDate.
+ * Which class overrides equals() and toString()?
  * Finally some special tests with enums.
  */
 public class OCA_02_Equals {

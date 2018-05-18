@@ -1,7 +1,7 @@
 package com.oca.session6;
 
 /**
- * Java, autoboxing and comparing numbers.
+ * Java, autoboxing and comparing numbers. Can Java count beyond 127?
  */
 public class OCA_08_Autoboxing {
 

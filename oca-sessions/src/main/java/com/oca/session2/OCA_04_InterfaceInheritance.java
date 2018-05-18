@@ -24,9 +24,11 @@ public class OCA_04_InterfaceInheritance {
 		myClass.methodB();
 		myClass.methodC();
 		
+		// Trying to invoke the static method methodC in another way
 		MyInterface myInterface = new MyClass();
 		myInterface.methodC();
 		
+		// Does this one work?
 		MyInterface.methodC();
 	}
 }

@@ -8,8 +8,8 @@ import java.io.InputStream;
 
 /**
  * Which constructors do not compile?
- * Can an instance variable be used in a super() call in line 20?
- * Are constructors inhereted by the superclass so that line 24 works?
+ * Can an instance variable be used in a super() call in line 21?
+ * Are constructors inhereted by the superclass so that line 26 works?
  * Can a static variable be used in a super() call in line 31?
  */
 public class OCA_09_Constructor extends Exception {

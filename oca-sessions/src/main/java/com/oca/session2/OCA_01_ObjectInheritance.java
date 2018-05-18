@@ -1,7 +1,7 @@
 package com.oca.session2;
 
 /**
- * Which methods are inhereted from java.lang.Object?
+ * Methods that are inhereted from java.lang.Object.
  */
 public class OCA_01_ObjectInheritance extends Object {
 
@@ -10,8 +10,8 @@ public class OCA_01_ObjectInheritance extends Object {
 		OCA_01_ObjectInheritance instance = new OCA_01_ObjectInheritance();
 		
 		// Relevant for OCA
-		instance.equals(new Object());
-		instance.finalize();
+		instance.equals(new Object()); // default implementation in java.lang.Object: same reference ==
+		instance.finalize(); // method declaration in java.lang.Object: protected void finalize() throws Throwable
 		instance.toString();
 		
 		// Irrelevant for OCA

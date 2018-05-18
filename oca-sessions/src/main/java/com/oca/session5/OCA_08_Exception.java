@@ -2,7 +2,7 @@ package com.oca.session5;
 
 /**
  * Is the exception thrown when finally returns something, does a System.exit or throws another exception?
- * If catch throws a checked exception and finally does one of the three things, must the method process declare throws Exception?
+ * If catch throws a checked exception and finally does one of the three things, must the method declare throws Exception?
  */
 public class OCA_08_Exception {
 

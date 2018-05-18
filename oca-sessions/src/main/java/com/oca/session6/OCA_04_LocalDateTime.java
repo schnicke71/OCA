@@ -1,5 +1,6 @@
 package com.oca.session6;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.time.LocalDateTime;
@@ -13,10 +14,11 @@ import java.util.GregorianCalendar;
 
 /**
  * Exploring the API of LocalDateTime.
+ * Note the difference between the old Calendar and the new time API, immutability (!), having periods and durations and formatting features.
  */
 public class OCA_04_LocalDateTime {
 
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws ParseException {
 		
 		Calendar calendar = GregorianCalendar.getInstance();
 		System.out.println("Month of calendar=" + calendar.get(Calendar.MONTH));
